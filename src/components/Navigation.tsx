@@ -9,13 +9,13 @@ const navItems = [
   { id: 'work', label: 'Work' },
   { id: 'education', label: 'Education' },
   { id: 'writing', label: 'Writing' },
-  { id: 'speaking', label: 'Speaking' },
+  
 ]
 
 const socialLinks = [
   { label: 'Mail', href: 'mailto:bruce@banner.com' },
   { label: 'Instagram', href: 'https://instagram.com' },
-  { label: 'Vimeo', href: 'https://vimeo.com' },
+  { label: 'LinkedIn', href: 'https://linkedin.com' },
 ]
 
 export function Navigation() {

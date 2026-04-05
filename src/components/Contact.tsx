@@ -100,12 +100,12 @@ export function Contact() {
               Instagram
             </a>
             <a
-              href="https://vimeo.com/brucebanner"
+              href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg lg:text-xl text-gray-300 hover:text-white transition-colors underline underline-offset-4"
             >
-              Vimeo
+              LinkedIn
             </a>
           </div>
         </motion.div>
