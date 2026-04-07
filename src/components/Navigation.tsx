@@ -48,7 +48,7 @@ export function Navigation() {
       {/* Mobile Menu Overlay */}
       <div
         className={cn(
-          'md:hidden fixed inset-0 z-40 bg-black/95 backdrop-blur-md transition-all duration-300',
+          'md:hidden fixed inset-0 z-40 bg-black/70 backdrop-blur-lg transition-all duration-300',
           mobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         )}
       >
