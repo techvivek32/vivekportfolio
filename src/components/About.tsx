@@ -51,9 +51,9 @@ export function About() {
           {...fadeInUp}
           className="mb-24 lg:mb-32"
         >
-          <h2 className="font-display text-[8vw] lg:text-section leading-tight tracking-tight text-gray-300">
+          <h2 className="font-display text-[8vw] lg:text-section leading-relaxed lg:leading-tight tracking-tight text-gray-300">
             "TRUSTED BY BUSINESSES<br />
-            <span className="text-white underline decoration-2 underline-offset-[0.3em] md:underline-offset-8">FOR DELIVERING SCALABLE</span><br />
+            <span className="text-white underline decoration-2 underline-offset-[0.5em] lg:underline-offset-8">FOR DELIVERING SCALABLE</span><br />
             SAAS, ERP & AI SOLUTIONS<br />
             ACROSS INDUSTRIES."
           </h2>
