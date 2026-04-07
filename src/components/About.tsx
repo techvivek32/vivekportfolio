@@ -53,7 +53,7 @@ export function About() {
         >
           <h2 className="font-display text-[8vw] lg:text-section leading-relaxed lg:leading-tight tracking-tight text-gray-300">
             "TRUSTED BY BUSINESSES<br />
-            <span className="text-white underline decoration-2 underline-offset-[0.5em] lg:underline-offset-8">FOR DELIVERING SCALABLE</span><br />
+            <span className="text-white">FOR DELIVERING SCALABLE</span><br />
             SAAS, ERP & AI SOLUTIONS<br />
             ACROSS INDUSTRIES."
           </h2>
