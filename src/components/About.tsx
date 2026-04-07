@@ -98,12 +98,12 @@ export function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24">
           <motion.div {...fadeInUp}>
             <img
-              src="public\650024b8-1aff-4476-8976-50f7257ad83f.png  "
-              alt="Bruce shooting for National Geographic"
+              src="/650024b8-1aff-4476-8976-50f7257ad83f.png"
+              alt="Vision Tech Workspace"
               className="w-full h-auto grayscale"
             />
             <p className="mt-4 text-xs text-gray-500 tracking-widest uppercase">
-              VISION TECH - RAJKOT / INDIA <br />
+              VISION TECH - RAJKOT / INDIA
             </p>
           </motion.div>
 
