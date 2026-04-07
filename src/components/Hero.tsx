@@ -5,10 +5,17 @@ export function Hero() {
     <section className="relative h-screen w-full overflow-hidden">
       {/* Background Image - Responsive */}
       <div className="absolute inset-0 w-full h-full">
+        {/* Mobile Image */}
+        <img
+          src="/WhatsApp Image 2026-04-08 at 12.41.45 AM.jpeg"
+          alt="Vivek Vora - Vision Tech"
+          className="md:hidden w-full h-full object-cover object-center"
+        />
+        {/* Desktop Image */}
         <img
           src="/hero-image.jpg"
-          alt="Bruce Banner"
-          className="w-full h-full object-cover object-center"
+          alt="Vivek Vora - Vision Tech"
+          className="hidden md:block w-full h-full object-cover object-center"
         />
         {/* Dark overlay for better text readability */}
         <div className="absolute inset-0 bg-black/40 md:bg-black/30" />
