@@ -34,16 +34,14 @@ export function Navigation() {
   return (
     <>
       {/* Mobile Header */}
-      <div className="md:hidden fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-sm border-b border-gray-800">
-        <div className="flex items-center justify-between p-4">
+      <div className="md:hidden fixed top-0 left-0 right-0 z-50">
+        <div className="flex items-center justify-between p-6">
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="text-white p-2"
+            className="text-white p-2 mix-blend-difference"
           >
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
-          <span className="text-white text-sm font-semibold tracking-wider">VISION TECH</span>
-          <div className="w-10" /> {/* Spacer for centering */}
         </div>
       </div>
 
@@ -53,7 +51,6 @@ export function Navigation() {
           'md:hidden fixed inset-0 z-40 bg-black/95 backdrop-blur-md transition-all duration-300',
           mobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         )}
-        style={{ top: '64px' }}
       >
         <div className="flex flex-col h-full p-6">
           {/* Navigation Items */}

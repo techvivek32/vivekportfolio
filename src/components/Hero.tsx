@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 export function Hero() {
   return (
-    <section className="relative h-screen w-full overflow-hidden pt-16 md:pt-0">
+    <section className="relative h-screen w-full overflow-hidden">
       {/* Background Image - Responsive */}
       <div className="absolute inset-0 w-full h-full">
         <img
