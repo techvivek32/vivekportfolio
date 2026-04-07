@@ -15,7 +15,7 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-end md:items-center pb-32 md:pb-0 px-4 sm:px-6 md:px-12 lg:px-16">
+      <div className="relative z-10 h-full flex items-end md:items-center pb-32 md:pb-0 px-6 sm:px-8 md:px-12 lg:px-16">
         <div className="w-full max-w-5xl">
           {/* Typography */}
           <motion.div
@@ -24,18 +24,18 @@ export function Hero() {
             transition={{ duration: 0.8, ease: 'easeOut' }}
           >
             <h1 className="font-display leading-none tracking-tighter text-[15vw] sm:text-[12vw] md:text-hero">
-              <span className="block text-white">VISION</span>
-              <span className="block text-white">TECH</span>
-              <span className="block text-white">SOLUTION</span>
+              <span className="block text-white">VIVEK</span>
+              <span className="block text-white">WITH</span>
+              <span className="block text-white">MAD VISION</span>
             </h1>
             
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.8 }}
-              className="mt-6 md:mt-8 text-sm sm:text-base text-white/80 max-w-sm md:max-w-md leading-relaxed"
+              className="mt-6 md:mt-8 text-sm sm:text-base text-white/80 max-w-[90%] sm:max-w-sm md:max-w-md leading-relaxed pr-4"
             >
-              Bruce was named in Aperture Magazine's prestigious "Visual 100" list, as one of the Ten Most Compelling Photographers in 2023.
+              Vivek Vora is building cutting-edge SaaS platforms and AI-driven solutions, helping businesses scale with modern technology.
             </motion.p>
           </motion.div>
         </div>

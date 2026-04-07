@@ -1,14 +1,14 @@
 import { motion } from 'framer-motion'
 
 const skills = [
-  'Editorial Photography',
-  'Portrait Photography',
-  'Documentary',
-  'Commercial Campaigns',
-  'Art Direction',
-  'Visual Storytelling',
-  'Photo Editing',
-  'Creative Direction',
+  'Full-Stack Development',
+  'SaaS Architecture',
+  'ERP & CRM Systems',
+  'AI & Machine Learning',
+  'Cloud & DevOps (AWS, Docker, CI/CD)',
+  'API Design & Microservices',
+  'System Design & Scalability',
+  'Database Architecture',
 ]
 
 const fadeInUp = {

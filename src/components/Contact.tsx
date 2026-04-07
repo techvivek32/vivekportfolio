@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion'
 
 const contacts = [
-  { label: 'UNITED STATES', type: 'location', link: '#' },
-  { label: 'UNITED KINGDOM', type: 'location', link: '#' },
+  { label: 'PHONE (INDIA)', type: 'phone', link: 'tel:+919601176051', display: '+91 96011 76051' },
+  { label: 'PHONE (CANADA)', type: 'phone', link: 'tel:+18259070036', display: '+1 (825) 907-0036' },
+  { label: 'WHATSAPP', type: 'whatsapp', link: 'https://wa.me/18259070036', display: '+1 (825) 907-0036' },
 ]
 
 const fadeInUp = {
@@ -44,12 +45,12 @@ export function Contact() {
           className="mb-12 lg:mb-16 max-w-2xl"
         >
           <h3 className="text-xl md:text-2xl lg:text-3xl text-white font-light leading-tight mb-4">
-            I'M NOTORIOUSLY<br />
-            SLOW AT GETTING<br />
-            BACK TO EMAILS
+            LET'S BUILD<br />
+            SOMETHING<br />
+            AMAZING TOGETHER
           </h3>
           <p className="text-sm text-gray-500 tracking-widest uppercase">
-            IN A HURRY? PLEASE CONTACT MY AWESOME PRODUCERS
+            READY TO SCALE YOUR BUSINESS WITH MODERN TECHNOLOGY?
           </p>
         </motion.div>
 
@@ -59,15 +60,22 @@ export function Contact() {
             <motion.a
               key={contact.label}
               href={contact.link}
+              target={contact.type === 'whatsapp' ? '_blank' : undefined}
+              rel={contact.type === 'whatsapp' ? 'noopener noreferrer' : undefined}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="flex items-center justify-between border-t border-gray-800 py-5 md:py-6 group hover:bg-gray-900/30 transition-colors px-4 -mx-4"
             >
-              <span className="text-sm text-gray-400 tracking-widest">
-                {contact.label}
-              </span>
+              <div className="flex flex-col">
+                <span className="text-sm text-gray-400 tracking-widest mb-1">
+                  {contact.label}
+                </span>
+                <span className="text-base text-gray-300">
+                  {contact.display}
+                </span>
+              </div>
               <span className="text-gray-500 group-hover:text-white transition-colors">
                 ↗
               </span>
@@ -86,13 +94,13 @@ export function Contact() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 md:gap-16">
             <a
-              href="mailto:bruce@banner.photography"
+              href="mailto:info@madvision.tech"
               className="text-lg lg:text-xl text-gray-300 hover:text-white transition-colors underline underline-offset-4"
             >
-              bruce@banner.photography
+              info@madvision.tech
             </a>
             <a
-              href="https://instagram.com/brucebanner"
+              href="https://www.instagram.com/madvision_tech?igsh=MWh6MTBhcTdoNGsxbg=="
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg lg:text-xl text-gray-300 hover:text-white transition-colors underline underline-offset-4"
@@ -100,7 +108,7 @@ export function Contact() {
               Instagram
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/vivek-h-vora-0613b13b3?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg lg:text-xl text-gray-300 hover:text-white transition-colors underline underline-offset-4"
@@ -116,10 +124,10 @@ export function Contact() {
           className="mt-24 lg:mt-32 pt-8 border-t border-gray-900 flex flex-col md:flex-row justify-between items-center gap-4"
         >
           <p className="text-xs text-gray-600">
-            © {new Date().getFullYear()} Bruce Banner Photography. All rights reserved.
+            © {new Date().getFullYear()} Vision Tech. All rights reserved.
           </p>
           <p className="text-xs text-gray-600">
-            New York / London
+            Rajkot, Gujarat, India
           </p>
         </motion.footer>
       </div>

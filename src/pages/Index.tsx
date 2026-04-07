@@ -5,23 +5,19 @@ import { About } from '@/components/About'
 import { Skills } from '@/components/Skills'
 import { Work } from '@/components/Work'
 import { Education } from '@/components/Education'
-import { Writing } from '@/components/Writing'
-
 import { Contact } from '@/components/Contact'
 
 export default function Index() {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen bg-background text-foreground overflow-x-hidden w-full">
       <GrainOverlay />
       <Navigation />
-      <main>
+      <main className="overflow-x-hidden w-full">
         <Hero />
         <About />
         <Skills />
         <Work />
         <Education />
-        <Writing />
-        
         <Contact />
       </main>
     </div>

@@ -7,15 +7,14 @@ const navItems = [
   { id: 'about', label: 'About' },
   { id: 'skills', label: 'Skills' },
   { id: 'work', label: 'Work' },
-  { id: 'education', label: 'Education' },
-  { id: 'writing', label: 'Writing' },
-  
+  { id: 'education', label: 'What We Build' },
 ]
 
 const socialLinks = [
-  { label: 'Mail', href: 'mailto:bruce@banner.com' },
-  { label: 'Instagram', href: 'https://instagram.com' },
-  { label: 'LinkedIn', href: 'https://linkedin.com' },
+  { label: 'Mail', href: 'mailto:info@madvision.tech' },
+  { label: 'WhatsApp', href: 'https://wa.me/18259070036' },
+  { label: 'Instagram', href: 'https://www.instagram.com/madvision_tech?igsh=MWh6MTBhcTdoNGsxbg==' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/vivek-h-vora-0613b13b3?utm_source=share_via&utm_content=profile&utm_medium=member_ios' },
 ]
 
 export function Navigation() {
